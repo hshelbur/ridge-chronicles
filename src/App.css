@@ -1,0 +1,51 @@
+.header {
+  background-repeat: no-repeat;
+  min-height: 200px;
+  background-image: url("./images/ridge-header.jpg");
+  background-size: 100% 100%;
+  background-size-width: 100%;
+  margin-top: 0;
+  border-bottom: 1px solid black;
+}
+
+.header .title {
+  color: lightskyblue;
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+  text-align: right;
+  margin-top: 0;
+  margin-right: 10px;
+  padding-top: 190px;
+  font-family: 'Pacifico', cursive;
+}
+
+/* ---------- HAMBURGER MENU STYLES ---------- */
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+.bm-burger-bars {
+  background: lightskyblue;
+  border: 1px solid #111;
+}
+
+.bm-menu {
+  background: lightskyblue;
+  padding: 2.5em 1.5em 0;
+  font-size: 14px;
+}
+
+.bm-menu .menu-item {
+  font-family: 'Pacifico', cursive;
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.bm-morph-shape {
+  fill: lightskyblue;
+}
