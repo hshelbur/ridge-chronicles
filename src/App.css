@@ -1,7 +1,16 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 .header {
   background-repeat: no-repeat;
   min-height: 200px;
-  background-image: url("./images/ridge-header.jpg");
+  background-image: url("./backgroundimg/ridge-header.jpg");
   background-size: 100% 100%;
   background-size-width: 100%;
   margin-top: 0;
@@ -16,7 +25,34 @@
   margin-right: 10px;
   padding-top: 190px;
   font-family: 'Pacifico', cursive;
+  font-size: 30px;
 }
+
+.container {
+  margin: auto;
+}
+
+.image-carousel {
+  width: 300px;
+  margin: 30px auto;
+}
+
+.carousel-image {
+  width: 300px;
+  height: 300px;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: #ccc;
+}
+
+.container .title {
+  width: 100%;
+  text-align: center;
+  margin-left: 30px auto;
+  font-family: 'Pacifico', cursive;
+}
+
 
 /* ---------- HAMBURGER MENU STYLES ---------- */
 
