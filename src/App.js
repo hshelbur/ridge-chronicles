@@ -18,9 +18,9 @@ class Header extends Component {
 class ImageCarousel extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="carousel-container">
 
-        <section className="wildlife">
+        <section className="wildlife box">
           <div className="image-carousel">
             <div className="carousel-image"><img src="images/bees.jpg" alt="bees" /></div>
             <div className="carousel-image"><img src="images/snail.jpg" alt="snail" /></div>
@@ -29,7 +29,7 @@ class ImageCarousel extends Component {
           <h2 className="title">Wildlife</h2>
         </section>
 
-        <section className="studio">
+        <section className="studio box">
           <div className="image-carousel">
             <div className="carousel-image"><img src="images/bees.jpg" alt="bees" /></div>
             <div className="carousel-image"><img src="images/snail.jpg" alt="snail" /></div>
@@ -38,7 +38,7 @@ class ImageCarousel extends Component {
           <h2 className="title">The Studio</h2>
         </section>
 
-        <section className="ridge-to-table">
+        <section className="ridge-to-table box">
           <div className="image-carousel">
             <div className="carousel-image"><img src="images/bees.jpg" alt="bees" /></div>
             <div className="carousel-image"><img src="images/snail.jpg" alt="snail" /></div>
