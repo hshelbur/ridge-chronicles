@@ -64,6 +64,10 @@ html, body {
     margin-bottom: 30px;
   }
 
+  .image-carousel {
+    margin: 50px auto;
+  }
+
   .wildlife {
   float: left;
   width: 50%;
@@ -101,7 +105,6 @@ html, body {
   background: clear;
   border: 1px solid #111;
 }
-
 
 .bm-menu {
   background: lightskyblue;
