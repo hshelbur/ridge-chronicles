@@ -37,13 +37,13 @@ html, body {
 }
 
 .image-carousel {
-  width: 300px;
+  width: 400px;
   margin: 30px auto;
 }
 
 .carousel-image {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
 }
 
 .slick-prev:before, .slick-next:before {
@@ -61,32 +61,41 @@ html, body {
 @media (min-width: 750px) {
 
   .header {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
   }
 
   .image-carousel {
-    margin: 50px auto;
+    margin: 0px auto;
   }
 
   .wildlife {
   float: left;
-  width: 50%;
   }
 
   .studio {
     float: right;
-    width: 50%;
   }
 
   .ridge-to-table {
     clear: both;
     float: left;
-    width: 50%;
   }
 
   .chronicles {
     float: right;
+  }
+
+  .box {
     width: 50%;
+    transform: scale(.8);
+  }
+}
+
+
+@media (min-width: 1000px) {
+  .box {
+    transform: scale(1);
+    margin: 40px auto;
   }
 }
 

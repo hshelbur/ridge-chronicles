@@ -47,7 +47,7 @@ class ImageCarousel extends Component {
           <h2 className="title">Ridge to Table</h2>
         </section>
 
-        <section className="chronicles">
+        <section className="chronicles box">
           <div className="image-carousel">
             <div className="carousel-image"><img src="images/motorcycle.jpg" alt="motorcycle" /></div>
             <div className="carousel-image"><img src="images/snail.jpg" alt="snail" /></div>
