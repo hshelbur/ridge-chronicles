@@ -31,7 +31,7 @@ class ImageCarousel extends Component {
 
         <section className="studio box">
           <div className="image-carousel">
-            <div className="carousel-image"><img src="images/bees.jpg" alt="bees" /></div>
+            <div className="carousel-image"><img src="images/studio.jpg" alt="the studio" /></div>
             <div className="carousel-image"><img src="images/snail.jpg" alt="snail" /></div>
             <div className="carousel-image"><img src="images/yellow-bird.jpg" alt="yellow bird" /></div>
           </div>
@@ -40,16 +40,16 @@ class ImageCarousel extends Component {
 
         <section className="ridge-to-table box">
           <div className="image-carousel">
-            <div className="carousel-image"><img src="images/bees.jpg" alt="bees" /></div>
-            <div className="carousel-image"><img src="images/snail.jpg" alt="snail" /></div>
+            <div className="carousel-image"><img src="images/vegharvest.jpg" alt="harvest" /></div>
+            <div className="carousel-image"><img src="images/raisedbeds.jpg" alt="raids beds" /></div>
             <div className="carousel-image"><img src="images/yellow-bird.jpg" alt="yellow bird" /></div>
           </div>
           <h2 className="title">Ridge to Table</h2>
         </section>
 
-        <section className="chronicles">
+        <section className="chronicles box">
           <div className="image-carousel">
-            <div className="carousel-image"><img src="images/bees.jpg" alt="bees" /></div>
+            <div className="carousel-image"><img src="images/motorcycle.jpg" alt="motorcycle" /></div>
             <div className="carousel-image"><img src="images/snail.jpg" alt="snail" /></div>
             <div className="carousel-image"><img src="images/yellow-bird.jpg" alt="yellow bird" /></div>
           </div>
