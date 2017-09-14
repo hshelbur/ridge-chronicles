@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route} from 'react-router-dom'
 import Header from './layout/header.js';
-import CHRONICLES from './data/galleries.js'
+import {CHRONICLES, IMAGES} from './data/chroniclesgalleries.js';
 import ImageCarousel from './layout/imagecarousel.js';
 import ChroniclesGallery from './pages/chroniclesgallery.js';
+import ImagePage from './pages/singleimage.js';
 
 
 class App extends Component {
@@ -21,6 +22,15 @@ class App extends Component {
             <Route path="/chronicles" render={() =>
               <ChroniclesGallery galleries={CHRONICLES.filter((gallery) => gallery.category === 'Chronicles')} />
             } />
+
+            <Route exact path="/chronicles-photo/:id" render={({match}) => {
+
+              const {id} = match.params
+              const matches = IMAGES.filter(image => image.id === id)
+              return matches.length > 0 
+                ? <ImagePage images={matches} />
+                : <h1>Sorry, Article Not Found</h1>
+            }} />
 
         </div>
       </Router> 
