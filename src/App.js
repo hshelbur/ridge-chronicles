@@ -1,20 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route} from 'react-router-dom'
-import Sidebar from './layout/sidebar.js';
+import Header from './layout/header.js';
+import CHRONICLES from './data/galleries.js'
 import ImageCarousel from './layout/imagecarousel.js';
-
-
-class Header extends Component {
-  render() {
-    return (
-      <header className="header">
-        <Sidebar />
-        <h1 className="title">The Ridge Chronicles</h1>
-      </header>
-      );
-  }
-}
+import ChroniclesGallery from './pages/chroniclesgallery.js';
 
 
 class App extends Component {
@@ -23,9 +13,15 @@ class App extends Component {
       <Router>
         <div>
           <Header />
+
             <Route exact path="/" render={() =>           
               <ImageCarousel />
             } />
+
+            <Route path="/chronicles" render={() =>
+              <ChroniclesGallery galleries={CHRONICLES.filter((gallery) => gallery.category === 'Chronicles')} />
+            } />
+
         </div>
       </Router> 
     );
