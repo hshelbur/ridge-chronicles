@@ -133,3 +133,15 @@ html, body {
 .bm-morph-shape {
   fill: lightskyblue;
 }
+
+/* ---------- Chronicles Gallery ----------- */
+
+.chronicles-gallery .gallery-title {
+  font-family: 'Pacifico', cursive;
+  margin-left: 20px;
+}
+
+.chronicles-gallery .gallery-copy img {
+  width: 350px;
+  margin: 0 30px 30px 30px;
+}

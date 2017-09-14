@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class GalleryProfile extends Component {
+class ChroniclesLayout extends Component {
   render() {
 
     const {title, date, images, category} = this.props
@@ -19,4 +19,4 @@ class GalleryProfile extends Component {
   }
 }
 
-export default GalleryProfile
+export default ChroniclesLayout
