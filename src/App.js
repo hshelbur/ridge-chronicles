@@ -29,7 +29,7 @@ class App extends Component {
               const matches = IMAGES.filter(image => image.id === id)
               return matches.length > 0 
                 ? <ImagePage images={matches} />
-                : <h1>Sorry, Article Not Found</h1>
+                : <h1>Sorry, Image Not Found</h1>
             }} />
 
         </div>
