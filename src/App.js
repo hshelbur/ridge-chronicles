@@ -20,7 +20,7 @@ class App extends Component {
             } />
 
             <Route path="/chronicles" render={() =>
-              <ChroniclesGallery galleries={CHRONICLES.filter((gallery) => gallery.category === 'Chronicles')} />
+              <ChroniclesGallery galleries={CHRONICLES} />
             } />
 
             <Route exact path="/chronicles-photo/:id" render={({match}) => {
@@ -31,6 +31,10 @@ class App extends Component {
                 ? <ImagePage images={matches} />
                 : <h1>Sorry, Image Not Found</h1>
             }} />
+
+            <Route path="/archive" render={() =>
+              <ChroniclesGallery galleries={CHRONICLES} />
+            } />
 
         </div>
       </Router> 
