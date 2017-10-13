@@ -134,6 +134,10 @@ html, body {
   fill: lightskyblue;
 }
 
+.under-development img {
+  width: 100%;
+}
+
 /* ---------- One Up Image ---------- */
 
 .single-photo img {

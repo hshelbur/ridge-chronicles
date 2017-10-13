@@ -6,6 +6,7 @@ import {CHRONICLES, IMAGES} from './data/chroniclesgalleries.js';
 import ImageCarousel from './layout/imagecarousel.js';
 import ChroniclesGallery from './pages/chroniclesgallery.js';
 import ImagePage from './pages/singleimage.js';
+import Underdevelopment from './pages/underdevelopment.js';
 
 
 class App extends Component {
@@ -34,6 +35,26 @@ class App extends Component {
 
             <Route path="/archive" render={() =>
               <ChroniclesGallery galleries={CHRONICLES} />
+            } />
+
+            <Route exact path="/who-we-are" render={() =>           
+              <Underdevelopment />
+            } />
+
+            <Route exact path="/contact" render={() =>           
+              <Underdevelopment />
+            } />
+
+            <Route exact path="/the-studio" render={() =>           
+              <Underdevelopment />
+            } />
+
+            <Route exact path="/flora-and-fauna" render={() =>           
+              <Underdevelopment />
+            } />
+
+            <Route exact path="/ridge-to-table" render={() =>           
+              <Underdevelopment />
             } />
 
         </div>
